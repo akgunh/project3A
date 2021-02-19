@@ -33,4 +33,8 @@ public class Voetbalclub {
         String str = String.format("%s %d %d %d %d %d", naam, aantalGespeeld(), aantalGewonnen, aantalGelijk, aantalVerloren, aantalPunten());
         return str;
     }
+
+    public String getNaam() {
+        return naam;
+    }
 }
